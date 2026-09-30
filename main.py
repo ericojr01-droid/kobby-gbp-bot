@@ -159,7 +159,7 @@ def start():
             for sym in SYMBOLS:
                 try:
                     analyze_symbol(sym)
-                    time.sleep(5)
+                    time.sleep(10)
                 except Exception as e:
                     print(e)
         time.sleep(900)
